@@ -1,14 +1,12 @@
 
 language: node_js
-
-
-
-
+node_js:
+  - 0.10
 build:
-  ci:
+  ci:   
     - node --version
     
   pre_ci_boot:
-    image_name: drydock/u14
+    image_name: drydock/u14nodall
     image_tag: prod
     pull: true 
