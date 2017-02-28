@@ -8,6 +8,6 @@ build:
     - node --version
     
   pre_ci_boot:
-    image_name: drydock/u14nodall
+    image_name: drydock/u14
     image_tag: prod
     pull: true 
