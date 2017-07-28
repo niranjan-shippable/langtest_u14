@@ -1,12 +1,12 @@
 
 language: node_js
 node_js:
-  - 0.10
+  - 4.8.4
   
 build:
   ci:   
     - node --version
-    - sleep 5m
+    
     
   pre_ci_boot:
     image_name: drydock/u14
