@@ -15,7 +15,7 @@ build:
 integrations:
   notifications:
     - integrationName: hipchatKey-notif 
-      type: hipchat
+      type: hipchatKey
       recipients:
         - "#test-notifications"
       on_start: always
