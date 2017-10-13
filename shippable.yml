@@ -4,6 +4,8 @@ node_js:
   - 4.8.4
   
 build:
+  pre_ci_boot:
+    options: "--net=host"
   ci:   
     - node --version
     
