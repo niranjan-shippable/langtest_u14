@@ -18,3 +18,7 @@ integrations:
       type: hipchat
       recipients:
         - "#test-notifications"
+    - integrationName: hipchat-notif 
+      type: hipchat
+      recipients:
+        - "#test-old-notif"
