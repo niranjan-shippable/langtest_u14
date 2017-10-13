@@ -19,8 +19,12 @@ integrations:
       recipients:
         - "#test-notifications"
       on_start: always
+      on_success: always
+      on_failure: always
     - integrationName: hipchat-notif 
       type: hipchat
       recipients:
         - "#test-old-notif"
       on_start: always
+      on_success: always
+      on_failure: always
