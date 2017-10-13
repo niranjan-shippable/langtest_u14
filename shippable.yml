@@ -6,10 +6,19 @@ node_js:
 build:
   ci:   
     - node --version
-    
-    
+
   pre_ci_boot:
     image_name: drydock/u14
     image_tag: master
     options: "--net=host"
 
+integrations:
+  notifications:
+    - integrationName: hipchat-notif 
+      type: hipchat
+      recipients:
+        - "#test-notifications"
+      on_success: always
+      on_failure: always
+      on_cancel: always
+      on_start: always
