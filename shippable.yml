@@ -18,6 +18,7 @@ integrations:
       type: hipchat
       recipients:
         - "#test-notifications"
+      on_start: always
     - integrationName: hipchat-notif 
       type: hipchat
       recipients:
