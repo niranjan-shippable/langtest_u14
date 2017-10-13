@@ -4,8 +4,6 @@ node_js:
   - 4.8.4
   
 build:
-  pre_ci_boot:
-    options: "--net=host"
   ci:   
     - node --version
     
@@ -13,5 +11,5 @@ build:
   pre_ci_boot:
     image_name: drydock/u14
     image_tag: master
-    pull: true 
- 
+    options: "--net=host"
+
