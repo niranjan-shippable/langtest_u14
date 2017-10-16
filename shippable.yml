@@ -6,6 +6,7 @@ node_js:
 build:
   ci:   
     - node --version
+    - exit 1
 
   pre_ci_boot:
     image_name: drydock/u14
@@ -18,7 +19,7 @@ integrations:
       type: hipchat
       recipients:
        - "#test-notifications"
-     on_failure: always
+      on_failure: always
     - integrationName: hipchat-old
       type: hipchat
       recipients:
