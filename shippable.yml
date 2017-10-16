@@ -14,7 +14,7 @@ build:
 
 integrations:
   notifications:
-    - integrationName: email-notif 
+    - integrationName: email 
       type: hipchat
       recipients:
         - "niranjan@shippable.com"
