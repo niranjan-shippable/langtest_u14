@@ -14,18 +14,11 @@ build:
 
 integrations:
   notifications:
-    - integrationName: email 
-      type: email
+    - integrationName: hipchatkey-latest-int 
+      type: hipchat
       recipients:
-        - "niranjan@shippable.com"
-      on_start: always
-#    - integrationName: hipchatkey-latest-int 
-#      type: hipchat
-#      recipients:
-#       - "#test-notifications"
-#     on_start: always
-#     on_success: always
-#      on_failure: always
+       - "#test-notifications"
+     on_failure: always
     - integrationName: hipchat-old
       type: hipchat
       recipients:
