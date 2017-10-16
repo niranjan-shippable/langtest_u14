@@ -33,10 +33,3 @@ integrations:
       on_start: always
       on_success: always
       on_failure: always
-    - integrationName: hipchat-old2
-      type: hipchat
-      recipients:
-        - "#test-old-2"
-      on_start: always
-      on_success: always
-      on_failure: always
