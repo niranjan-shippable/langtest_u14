@@ -7,6 +7,7 @@ build:
   ci:   
     - node --version
     - sleep 100
+    - echo "test pull request"
 
   pre_ci_boot:
     image_name: drydock/u14
