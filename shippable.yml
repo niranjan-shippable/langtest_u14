@@ -21,7 +21,7 @@ integrations:
         - "niranjan@shippable.com"
       on_start: always
     - integrationName: hipchatkey-latest-int 
-      type: hipchatKey
+      type: hipchat
       recipients:
         - "#test-notifications"
       on_start: always
