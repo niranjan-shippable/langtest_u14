@@ -6,8 +6,7 @@ node_js:
 build:
   ci:   
     - node --version
-    - echo "fail on purpose"
-    - exit 1
+    - sleep 100
 
   pre_ci_boot:
     image_name: drydock/u14
