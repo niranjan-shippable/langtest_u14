@@ -6,7 +6,6 @@ node_js:
 build:
   ci:   
     - node --version
-    - sleep 100
 
   pre_ci_boot:
     image_name: drydock/u14
@@ -20,13 +19,13 @@ integrations:
       recipients:
         - "niranjan@shippable.com"
       on_start: always
-    - integrationName: hipchatkey-latest-int 
-      type: hipchat
-      recipients:
-        - "#test-notifications"
-      on_start: always
-      on_success: always
-      on_failure: always
+#    - integrationName: hipchatkey-latest-int 
+#      type: hipchat
+#      recipients:
+#       - "#test-notifications"
+#     on_start: always
+#     on_success: always
+#      on_failure: always
     - integrationName: hipchat-old
       type: hipchat
       recipients:
