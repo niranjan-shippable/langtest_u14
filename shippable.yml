@@ -14,14 +14,14 @@ build:
 
 integrations:
   notifications:
-    - integrationName: slack-old-int
-      type: slack
-      recipients:
-        - "#test-slack-old-notif"
-        - "@niranjan92"
-      on_start: always
-      on_success: always
-      on_failure: always
+    # - integrationName: slack-old-int
+    #   type: slack
+    #   recipients:
+    #     - "#test-slack-old-notif"
+    #     - "@niranjan92"
+    #   on_start: always
+    #   on_success: always
+    #   on_failure: always
     - integrationName: slackkey-new-int
       type: slack
       recipients:
