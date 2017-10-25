@@ -6,6 +6,7 @@ node_js:
 build:
   ci:   
     - echo "this works"
+    - exit 1
 
   pre_ci_boot:
     image_name: drydock/u14
