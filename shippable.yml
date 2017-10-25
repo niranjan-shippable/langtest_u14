@@ -14,22 +14,43 @@ build:
 
 integrations:
   notifications:
-    - integrationName: hipchatkey-latest-int 
-      type: hipchat
+    # - integrationName: hipchatkey-latest-int 
+    #   type: hipchat
+    #   recipients:
+    #    - "#test-notifications"
+    #    - "@NiranjanGodbole"
+    # - integrationName: hipchat-old
+    #   type: hipchat
+    #   recipients:
+    #     - "#test-old-notif"
+    #   on_start: always
+    #   on_success: always
+    #   on_failure: always
+    # - integrationName: email
+    #   type: email
+    #   recipients:
+    #     - "niranjan@shippable.com"
+    #   on_start: always
+    #   on_success: always
+    #   on_failure: always
+    #     - integrationName: hipchatkey-latest-int 
+    #   type: hipchat
+    #   recipients:
+    #    - "#test-notifications"
+    #    - "@NiranjanGodbole"
+    # - integrationName: slackkey-latest-int
+    #   type: slack
+    #   recipients:
+    #     - "#test-slackkey-notif"
+    #     - "@niranjan92"
+    #   on_start: always
+    #   on_success: always
+    #   on_failure: always
+    - integrationName: slack-old-int
+      type: slack
       recipients:
-       - "#test-notifications"
-       - "@NiranjanGodbole"
-    - integrationName: hipchat-old
-      type: hipchat
-      recipients:
-        - "#test-old-notif"
-      on_start: always
-      on_success: always
-      on_failure: always
-    - integrationName: email
-      type: email
-      recipients:
-        - "niranjan@shippable.com"
+        - "#test-slack-old-notif"
+        - "@niranjan92"
       on_start: always
       on_success: always
       on_failure: always
