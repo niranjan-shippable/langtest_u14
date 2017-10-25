@@ -32,18 +32,18 @@ integrations:
     #   on_start: always
     #   on_success: always
     #   on_failure: always
-    # - integrationName: hipchatkey-latest-int 
-    #   type: hipchat
-    #   recipients:
-    #    - "#test-notifications"
-    #    - "@NiranjanGodbole"
-    # - integrationName: hipchat-old
-    #   type: hipchat
-    #   recipients:
-    #     - "#test-old-notif"
-    #   on_start: always
-    #   on_success: always
-    #   on_failure: always
+    - integrationName: hipchatkey-latest-int 
+      type: hipchat
+      recipients:
+       - "#test-notifications"
+       - "@NiranjanGodbole"
+    - integrationName: hipchat-old
+      type: hipchat
+      recipients:
+        - "#test-old-notif"
+      on_start: always
+      on_success: always
+      on_failure: always
     # - integrationName: email
     #   type: email
     #   recipients:
