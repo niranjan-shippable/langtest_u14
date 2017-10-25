@@ -14,23 +14,24 @@ build:
 
 integrations:
   notifications:
-    # - integrationName: slack-old-int
-    #   type: slack
-    #   recipients:
-    #     - "#test-slack-old-notif"
-    #     - "@niranjan92"
-    #   on_start: always
-    #   on_success: always
-    #   on_failure: always
-    - integrationName: slackkey-new-int
+    - integrationName: slack-old-int
       type: slack
       recipients:
-        - "#test-slackkey-notif"
         - "#test-slack-old-notif"
-        - "@niranjan8192"
+        - "#test-slackkey-notif"
+        - "@niranjan92"
       on_start: always
       on_success: always
       on_failure: always
+    # - integrationName: slackkey-new-int
+    #   type: slack
+    #   recipients:
+    #     - "#test-slackkey-notif"
+    #     - "#test-slack-old-notif"
+    #     - "@niranjan8192"
+    #   on_start: always
+    #   on_success: always
+    #   on_failure: always
     # - integrationName: hipchatkey-latest-int 
     #   type: hipchat
     #   recipients:
