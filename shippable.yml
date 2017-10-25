@@ -23,7 +23,7 @@ integrations:
     #   on_success: always
     #   on_failure: always
     - integrationName: slackkey-new-int
-      type: slack
+      type: slackKey
       recipients:
         - "#test-slackkey-notif"
       on_start: always
