@@ -26,6 +26,7 @@ integrations:
       type: slack
       recipients:
         - "#test-slackkey-notif"
+        - "#test-slack-old-notif"
         - "@niranjan8192"
       on_start: always
       on_success: always
