@@ -6,7 +6,7 @@ node_js:
 build:
   ci:   
     - node --version
-    - sleep 10
+    - sleep 10000
 
   pre_ci_boot:
     image_name: drydock/u14
