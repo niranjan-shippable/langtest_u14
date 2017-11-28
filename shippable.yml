@@ -11,4 +11,3 @@ build:
   pre_ci_boot:
     image_name: drydock/u14
     image_tag: master
-    options: "--net=host"
